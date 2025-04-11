@@ -11,7 +11,7 @@ import './App.css';
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename="/movie_site">
         <div className="app">
           <Navbar />
           <main className="container">
